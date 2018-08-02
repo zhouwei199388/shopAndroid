@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="my_devices">My Device</string>
+    <string name="guide">Guide</string>
+    <string name="devices">Device</string>
+    <string name="setting">Setting</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="select_language">Select Language</string>
+    <string name="direction">direction</string>
+    <string name="color">color</string>
+    <string name="music">music</string>
+</resources>
