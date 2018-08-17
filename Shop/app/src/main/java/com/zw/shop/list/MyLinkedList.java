@@ -67,6 +67,9 @@ public class MyLinkedList {
      */
     public void addAtIndex(int index, int val) {
         if (index >= size) {
+            return;
+        }
+        if (index == size - 1) {
             addAtTail(val);
             return;
         }
@@ -85,14 +88,14 @@ public class MyLinkedList {
      * Delete the index-th node in the linked list, if the index is valid.
      */
     public void deleteAtIndex(int index) {
-
         Node node = mHead;
         for (int i = 0; i < size; i++) {
-            node = node.next;
             if (index == i) {
                 Node node1 = node.next;
-                node.next = node1.next;
+                node.next = node1;
+                return;
             }
+            node = node.next;
         }
     }
 
