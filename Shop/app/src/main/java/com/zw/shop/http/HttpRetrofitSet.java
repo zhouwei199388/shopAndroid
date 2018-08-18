@@ -51,6 +51,8 @@ public class HttpRetrofitSet {
                 .client(client)
                 .build();
 
+
+
         mHttpApi = retrofit.create(HttpApi.class);
     }
 
