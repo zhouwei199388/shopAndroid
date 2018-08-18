@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/select_language"/>
+
+    <Button
+        android:id="@+id/chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_select"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginRight="@dimen/select_btn_margin"
+        android:layout_marginLeft="@dimen/select_btn_margin"
+        android:textColor="@drawable/btn_text_color"
+        android:background="@drawable/bg_btn_selector"
+        android:text="@string/chinese" />
+    <Button
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chinese"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginRight="@dimen/select_btn_margin"
+        android:layout_marginLeft="@dimen/select_btn_margin"
+        android:textColor="@drawable/btn_text_color"
+        android:background="@drawable/bg_btn_selector"
+        android:textAllCaps="false"
+        android:text="@string/english" />
+
+</RelativeLayout>

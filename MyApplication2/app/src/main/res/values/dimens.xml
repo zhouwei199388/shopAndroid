@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="actionBar_height">48dp</dimen>
+    <dimen name="navBar_height">60dp</dimen>
+    <!-- 默认圆角 -->
+    <dimen name="default_radius">4dp</dimen>
+    <dimen name="dialog_radius">8dp</dimen>
+
+    <dimen name="select_btn_margin">30dp</dimen>
+
+</resources>
