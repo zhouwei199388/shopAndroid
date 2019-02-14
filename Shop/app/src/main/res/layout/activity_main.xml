@@ -14,19 +14,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:text="菜单"
             android:textColor="@color/colorWrite"
-            android:textSize="16dp"
-            android:text="菜单" />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/tv_add"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
-            android:textColor="@color/colorWrite"
             android:gravity="center"
             android:padding="10dp"
-            android:textSize="14dp"
-            android:text="添加" />
+            android:text="添加"
+            android:textColor="@color/colorWrite"
+            android:textSize="14dp" />
     </RelativeLayout>
+
+    <com.zw.shop.view.ProgressBarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
